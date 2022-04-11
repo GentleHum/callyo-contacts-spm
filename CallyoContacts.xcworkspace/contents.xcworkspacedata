@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/michaelvork/Developer/callyo-contacts-spm/Package.swift">
+   </FileRef>
+   <FileRef
       location = "group:CallyoContactsExample/CallyoContactsExample.xcodeproj">
    </FileRef>
    <FileRef
