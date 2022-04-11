@@ -56,15 +56,47 @@
 		E01ECFDB28049B29001FAC58 /* CallyoContactsExample */ = {
 			isa = PBXGroup;
 			children = (
-				E01ECFDC28049B29001FAC58 /* AppDelegate.swift */,
-				E01ECFDE28049B29001FAC58 /* SceneDelegate.swift */,
-				E01ECFE028049B29001FAC58 /* ViewController.swift */,
-				E01ECFE228049B29001FAC58 /* Main.storyboard */,
-				E01ECFE528049B2B001FAC58 /* Assets.xcassets */,
-				E01ECFE728049B2B001FAC58 /* LaunchScreen.storyboard */,
-				E01ECFEA28049B2B001FAC58 /* Info.plist */,
+				E08E442B28049BD5000E2E46 /* Delegates */,
+				E08E442C28049BDD000E2E46 /* Controllers */,
+				E08E442D28049BE7000E2E46 /* Storyboards */,
+				E08E442E28049BF9000E2E46 /* Supporting Files */,
 			);
 			path = CallyoContactsExample;
+			sourceTree = "<group>";
+		};
+		E08E442B28049BD5000E2E46 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E01ECFDC28049B29001FAC58 /* AppDelegate.swift */,
+				E01ECFDE28049B29001FAC58 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E08E442C28049BDD000E2E46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E01ECFE028049B29001FAC58 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E08E442D28049BE7000E2E46 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E01ECFE228049B29001FAC58 /* Main.storyboard */,
+				E01ECFE728049B2B001FAC58 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E08E442E28049BF9000E2E46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E01ECFE528049B2B001FAC58 /* Assets.xcassets */,
+				E01ECFEA28049B2B001FAC58 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JNR8436L9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CallyoContactsExample/Info.plist;
+				INFOPLIST_FILE = "CallyoContactsExample/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JNR8436L9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CallyoContactsExample/Info.plist;
+				INFOPLIST_FILE = "CallyoContactsExample/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
