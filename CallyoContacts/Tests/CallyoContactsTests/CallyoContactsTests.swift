@@ -3,6 +3,6 @@ import XCTest
 
 final class CallyoContactsTests: XCTestCase {
     func testExample() throws {
-        let contacts = CallyoContacts()
+//        let contacts = CallyoContacts()
     }
 }
