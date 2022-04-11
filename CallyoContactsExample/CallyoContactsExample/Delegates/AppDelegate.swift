@@ -2,15 +2,13 @@
 //  AppDelegate.swift
 //  CallyoContactsExample
 //
-//  Created by Michael Vork on 4/11/22.
+//  Created by Michael Vork on 4/7/22.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

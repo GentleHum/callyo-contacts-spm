@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		E01ECFDD28049B29001FAC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ECFDC28049B29001FAC58 /* AppDelegate.swift */; };
 		E01ECFDF28049B29001FAC58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ECFDE28049B29001FAC58 /* SceneDelegate.swift */; };
-		E01ECFE128049B29001FAC58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ECFE028049B29001FAC58 /* ViewController.swift */; };
 		E01ECFE428049B29001FAC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01ECFE228049B29001FAC58 /* Main.storyboard */; };
 		E01ECFE628049B2B001FAC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01ECFE528049B2B001FAC58 /* Assets.xcassets */; };
 		E01ECFE928049B2B001FAC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01ECFE728049B2B001FAC58 /* LaunchScreen.storyboard */; };
+		E08E44312804A459000E2E46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E442F2804A459000E2E46 /* MainViewController.swift */; };
+		E08E44322804A459000E2E46 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E44302804A459000E2E46 /* ContactsViewController.swift */; };
+		E08E44352804A49B000E2E46 /* CallyoContacts in Frameworks */ = {isa = PBXBuildFile; productRef = E08E44342804A49B000E2E46 /* CallyoContacts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E01ECFD928049B29001FAC58 /* CallyoContactsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallyoContactsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01ECFDC28049B29001FAC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01ECFDE28049B29001FAC58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E01ECFE028049B29001FAC58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E01ECFE328049B29001FAC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01ECFE528049B2B001FAC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01ECFE828049B2B001FAC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01ECFEA28049B2B001FAC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08E442F2804A459000E2E46 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E08E44302804A459000E2E46 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08E44352804A49B000E2E46 /* CallyoContacts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				E01ECFDB28049B29001FAC58 /* CallyoContactsExample */,
 				E01ECFDA28049B29001FAC58 /* Products */,
+				E08E44332804A49B000E2E46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +81,8 @@
 		E08E442C28049BDD000E2E46 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E01ECFE028049B29001FAC58 /* ViewController.swift */,
+				E08E44302804A459000E2E46 /* ContactsViewController.swift */,
+				E08E442F2804A459000E2E46 /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -99,6 +105,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E08E44332804A49B000E2E46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +128,9 @@
 			dependencies = (
 			);
 			name = CallyoContactsExample;
+			packageProductDependencies = (
+				E08E44342804A49B000E2E46 /* CallyoContacts */,
+			);
 			productName = CallyoContactsExample;
 			productReference = E01ECFD928049B29001FAC58 /* CallyoContactsExample.app */;
 			productType = "com.apple.product-type.application";
@@ -170,9 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01ECFE128049B29001FAC58 /* ViewController.swift in Sources */,
 				E01ECFDD28049B29001FAC58 /* AppDelegate.swift in Sources */,
 				E01ECFDF28049B29001FAC58 /* SceneDelegate.swift in Sources */,
+				E08E44312804A459000E2E46 /* MainViewController.swift in Sources */,
+				E08E44322804A459000E2E46 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +373,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +409,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E08E44342804A49B000E2E46 /* CallyoContacts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CallyoContacts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E01ECFD128049B29001FAC58 /* Project object */;
 }
